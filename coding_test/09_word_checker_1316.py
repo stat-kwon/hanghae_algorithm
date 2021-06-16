@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('problem_09.txt', 'rt')
+sys.stdin = open('./txt/problem_09.txt', 'rt')
 
 N = int(input())
 

@@ -1,6 +1,6 @@
 import sys
 import math
-sys.stdin = open('problem_14.txt', 'rt')
+sys.stdin = open('./txt/problem_14.txt', 'rt')
 import math
 A, B, V = map(int, input().split())
 

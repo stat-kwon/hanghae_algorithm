@@ -2,7 +2,7 @@
 
 import sys
 
-sys.stdin = open('problem_02.txt', 'rt')
+sys.stdin = open('./txt/problem_02.txt', 'rt')
 
 first = int(input())
 second = list(map(int, input()))
@@ -15,8 +15,6 @@ for i in second[::-1]:
 cnt = 0
 total = 0
 for i in mul_list:
-    total += i*(10**cnt)
+    total += i * (10 ** cnt)
     cnt += 1
 print(total)
-
-

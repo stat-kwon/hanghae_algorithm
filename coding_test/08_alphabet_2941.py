@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('problem_08.txt', 'rt')
+sys.stdin = open('./txt/problem_08.txt', 'rt')
 
 words = str(input())
 croatia = ['c=', 'c-', 'dz=', 'd-', "lj", "nj", "s=", "z="]

@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("problem_04.txt", 'rt')
+sys.stdin = open("./txt/problem_04.txt", 'rt')
 
 number = int(input())
 first_number = number

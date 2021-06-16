@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/4344
 import sys
 
-sys.stdin = open('problem_05.txt', 'rt')
+sys.stdin = open('./txt/problem_05.txt', 'rt')
 
 C = int(input())
 

@@ -2,7 +2,7 @@
 # 생각보다 안풀렸던 문제^^ 문제 이해 필요
 
 import sys
-sys.stdin = open('problem_10.txt', 'rt')
+sys.stdin = open('./txt/problem_10.txt', 'rt')
 
 kg = int(input())
 

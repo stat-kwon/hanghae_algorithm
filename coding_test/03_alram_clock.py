@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("problem_03.txt", 'rt')
+sys.stdin = open("./txt/problem_03.txt", 'rt')
 
 hour, minit = map(int, input().split())
 

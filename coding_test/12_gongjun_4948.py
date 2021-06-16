@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('problem_12.txt', 'rt')
+sys.stdin = open('./txt/problem_12.txt', 'rt')
 
 
 def answer_count(num):
@@ -14,12 +14,13 @@ def answer_count(num):
                 check_list[j] = 1
     return cnt
 
-
 while True:
     n = int(input())
     if n == 0:
         break
     elif n == 1:
         print(1)
-    else:
-        print(answer_count(2 * n) - answer_count(n))
+else:
+    print(answer_count(2 * n) - answer_count(n))
+
+

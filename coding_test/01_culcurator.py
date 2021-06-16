@@ -2,7 +2,7 @@
 
 import sys
 
-sys.stdin = open('problem_01.txt', 'rt')
+sys.stdin = open('./txt/problem_01.txt', 'rt')
 A, B = map(int, input().split())
 
 

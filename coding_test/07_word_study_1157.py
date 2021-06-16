@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/1157
 
 import sys
-sys.stdin = open('problem_07.txt', 'rt')
+sys.stdin = open('./txt/problem_07.txt', 'rt')
 
 words = list(map(str,input().upper()))
 word_dic ={key:0 for key in set(words)}

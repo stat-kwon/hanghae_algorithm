@@ -1,8 +1,9 @@
 import sys
 
-sys.stdin = open('problem_13.txt', 'rt')
+sys.stdin = open('./txt/problem_13.txt', 'rt')
 
-n = int(input())
+# n = int(input())
+n = 2
 
 first = 666
 while True:
