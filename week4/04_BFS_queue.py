@@ -27,10 +27,5 @@ def bfs_queue(adj_graph, start_node):
                 queue.append(adjacent_node)
     return visited
 
-
-def bfs_queue(adj_graph, start_node):
-    queu
-    return
-
 print(bfs_queue(graph, 1))  # 1 이 시작노드입니다!
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 이 출력되어야 합니다!
