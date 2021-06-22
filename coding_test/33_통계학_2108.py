@@ -1,6 +1,7 @@
 import sys
 
 sys.stdin = open('./txt/problem_33.txt', 'rt')
+# 시간초과를 해결해야 함
 
 N = int(input())
 values = []
